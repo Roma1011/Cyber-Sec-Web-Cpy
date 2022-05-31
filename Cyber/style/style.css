@@ -1,0 +1,306 @@
+/* futction for all */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+#header{
+    height: 35vh;
+}
+.arrowscrolup{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #5AB1F4;
+    bottom: 50px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+/* body{
+    height: 1600px;
+} */
+
+/* fuNction for all */
+/*   P    r  e       h   e   a   d   e   r     s  e  t t i n g */
+.prehead{
+    width: 100%;
+    height: 45px;
+    background-color: #362F2D;
+    font-size: 15px;
+}
+.insideprehead{
+    height: 100%;
+}
+.inside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 16;
+    color: #E5F8FF;
+}
+.socicons{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex-direction: row;
+    color: #5AB1F4;
+    flex-basis: 30%;
+}
+.sociconfb{
+    margin-right: 5px;
+}
+.pading{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.phonecolor{
+    color: #5AB1F4;
+}
+.size{
+    font-size: 12px;
+}
+.fb{
+    color: #5AB1F4;
+    font-size: 20px;
+}
+.li{
+    color: #5AB1F4;
+    font-size: 20px;
+}
+/*   P    r  e       h   e   a   d   e   r     s  e  t t i n g */
+/* header sattings */
+.headerdown{
+    display: flex;
+    justify-content: space-between;
+}
+#sitelogo{
+    align-items: center;
+    display: flex;
+    width: 260px;
+    height: 99px;
+    /* margin-left: 70px; */
+    margin-left: auto;
+} 
+.logo{
+    width: 80%;
+}
+#nav{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-right: 20px; */
+    margin-right: auto;
+}
+.navpart{
+    color: #A2A2B7;
+    font-size: 13px;
+}
+
+/* h   e    a     D  E    R    s     a   t         t      i     n   g     s */
+
+/* S     e      c     t    i     o    n      s     e    t    t    i   n    g */
+
+.insidesection{
+    width: 100%;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+}
+.divflex{
+    display: flex;
+    justify-content: space-around;
+}
+.insidesetting{
+    width: 278px;
+    height: 352px;
+    background-color: #44A7F4;
+}
+.allspace{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.a1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.h2{
+    margin-bottom: 30px;
+}
+.bord{
+    border: solid white 2px;
+    padding: 20px;
+}
+.helperdivpadding{
+    padding: 10px;
+}
+.efect:hover{
+    font-size: 50px;
+    transition-duration: 0.7s;
+}
+/* S     e      c     t    i     o    n      s     e    t    t    i   n    g */
+/*  ................. section sientist and resarch..... ................ */
+.scientificsection{
+    width: 100%;
+    height: 307px;
+    background-image: url(../img/securityservice1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+    padding:60px 0px 60px 0px;
+}
+.scientificborder{
+    height: 187px;
+    position: relative;
+    top: 20px;
+}
+.justborder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.practice{
+    position: absolute;
+    top: 0px;
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    font: bold;
+}
+.cybersecurity{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    left: 170px;
+    right: 170px;
+}
+.readmore{
+    position: relative;
+    top: 120px;
+    background-color: #5AB1F4;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.outsidespan{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+    padding-top: 6px;
+    color: white;
+}
+
+/*  ................. section sientist and resarch end..... ................ */
+/* ........................join facebook section start here......... */
+.facebookjoingup{
+    width: 100%;
+    height: 307px;
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #5bb5ff 22%, #4267b2 79%);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding:60px 0px 60px 0px;
+}
+.h2level{
+    font-size: 30px;
+    color: white;
+}
+.plevel1{
+    padding-top: 30px;
+    color: white;
+}
+.divlevel1{
+    display: flex;
+    width: 100%;
+    height: 168.4px;
+}
+.divlevel2{
+    display: flex;
+    width: 100%;
+    height: 168.4px;
+}
+.divlevel3{
+    display: flex;
+    width: 100%;
+    height: 168.4px;
+}
+.insidelevel1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+    flex-direction: column;
+}
+.insidea{
+    width: 173px;
+    height: 40px;
+    color: #4267b2;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgba(66,103,178,0.63);
+}
+.insidea1{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.insidelevel2{
+margin-top: 70px;
+}
+.insidelevel2:hover{
+}
+/* ........................join facebook section end here......... */
+
+/* footer satting */
+footer{
+    height: 30vh;
+    background-color: #362F2D;
+}
+.line{
+    width:80%;
+    /* position: relative; */
+}
+.line::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    /* background-color: red; */
+    /* position: absolute; */
+    top: 50px;
+
+}
+.fance1{
+    right: 276px;
+    top: 30px;
+}
+/* .line::after{
+    content:'';
+    width: 40px;
+    height: 3px;
+    background-color: red; */
+/* } */
+/* .fance2{
+    width: 100%;
+    height: 2px;
+    background-color: aqua;
+} */
